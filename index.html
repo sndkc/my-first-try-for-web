@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design</title>
+    <title>Responsive navbar</title>
+    <!-- Importing the hamburger menu icon from remix icon CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Link to your stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>Floating element animation</title>
+    <!-- Font icons pulled from remix icon CDN (Content delivery network) -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <style>
+
+
+
+/*.spinner{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.spinner::before,
+.spinner::after{
+  content: '';
+  position: absolute;
+  border-radius: inherit;
+}
+.spinner::before{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    0deg,#1b9616 0%,
+    #333399 100%);
+    animation: spin .5s infinite linear;
+}
+.spinner::after{
+  width: 85%;
+  height: 85%;
+  background-color: #151515;
+  top: 50%;
+  left: 50%;
+  transform: translate(-2000%, 50%);
+}
+@keyframes spin{
+  to {
+    transform: rotate(360deg);
+  }
+} */
+    </style>
+
+</head>
+<body>
+
+<!-- This wrapper is not important and only used for demo purposes -->
+<div class="icons-wrapper">
+  <!-- 
+      Font icons. They are being pulled by class names from the remix icon CDN stylesheet.
+      Visit https://remixicon.com for the full list of icons and documentation.
+      The last icon class is my personal class for selecting all icons at once.
+  -->
+  <a href="https://www.instagram.com/aabbssddttaa/"><i class="ri-instagram-line icon"></i></a>
+  <a href="https://www.facebook.com/zuck"><i class="ri-facebook-circle-line icon"></i></a>
+  <a href="https://twitter.com/jack"><i class="ri-twitter-line icon"></i></a>
+</div>
+
+
+
+  <nav class="navbar container">
+    <a href="img/botmon.jpg" class="logo">LOGO</a>
+    <!-- The order that we place the checkbox and label here is important because we will use css only for the click event to open the menu on mobile. -->
+    <input type="checkbox" id="toggler">
+    <label for="toggler"><i class="ri-menu-line"></i></label>
+    <div class="menu">
+      <ul class="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+    <div id="search">
+        <form id="grad" class="example" action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+      
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </div>
+    <div>
+        <address>
+            Written by <a href="mailto:cengiz19053@hotmail.com">Cengizhan Sandikci</a>.<br> 
+            Visit us at:<br>
+            İstanbul<br>
+            Carsi, Umraniye<br>
+            Turkey
+            </address>
+    </div>
+  
+<div class="main">
+    <h1>Lorem, ipsum dolor.</h1>
+
+<main>
+  <h1>Lorem, ipsum.</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, earum!</p>
+  <article class="browser">
+    <h2>Lorem, ipsum.</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, debitis.</p>
+  </article>
+  <article class="browser">
+    <h2>Lorem, ipsum.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, expedita.</p>
+  </article>
+  <article class="browser">
+    <h2>Lorem, ipsum.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nihil?</p>
+  </article>
+</main>
+</div>
+
+ 
+<div class="space">
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="orange" stroke-width="4" fill="tomato" />
+        Sorry, your browser does not support inline SVG.
+      </svg>
+</div>
+
+
+<div class="footer">
+    <h1>Lorem ipsum dolor sit amet consectetur</h1>
+
+<article class="all-browsers">
+  <h1>Lorem, ipsum dolor.</h1>
+  <article class="browser">
+    <h2>Lorem, ipsum.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, beatae!</p>
+  </article>
+  <article class="browser">
+    <h2>Lorem, ipsum.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, architecto.</p>
+  </article>
+  <article class="browser">
+    <h2>Lorem, ipsum.</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, repellendus.</p>
+  </article>
+</article>
+
+<footer>
+  <p>Author: Cengizhan Sandikci<br>
+  <a href="mailto:cengiz19053@hotmail.com">cengiz19053@hotmail.com</a></p>
+</footer>
+</div>
+
+<!---
+<div class="spinner"></div>
+-->
+
+</body>
+</html>
